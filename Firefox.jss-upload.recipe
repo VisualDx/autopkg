@@ -18,8 +18,6 @@ Credit to the original creators of the firefox.jss recipe, Homebysix and Novaksa
 		<key>NOTES</key>
 		<string>Created and Updated by AutoPKG</string>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>0.4.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.pkg.Firefox_EN</string>
 	<key>Process</key>
@@ -31,6 +29,10 @@ Credit to the original creators of the firefox.jss recipe, Homebysix and Novaksa
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+                <key>package_notes</key>
+				<string>%NOTES%</string>
+                <key>package_info</key>
+				<string>%INFO%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
